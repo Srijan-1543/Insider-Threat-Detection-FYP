@@ -23,7 +23,6 @@ import sklearn.neighbors as knn
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, auc, precision_recall_curve, classification_report,  balanced_accuracy_score
 
-# df = pd.read_csv('/home/ambairammuthu.cse.nitt/srijan/PreprocessedFiles/day.csv')
 df = pd.read_csv("Data/day.csv")
 
 print("First few rows of the DataFrame:")
